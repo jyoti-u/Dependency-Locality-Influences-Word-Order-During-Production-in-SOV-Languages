@@ -1,0 +1,208 @@
+# 📄 Understanding of the Paper
+
+**Title:** Dependency Locality Influences Word Order in SOV Languages (Hindi Study)
+
+---
+
+# 🧠 1. Introduction
+
+This paper studies how humans decide the **order of words while speaking**, especially in **Hindi (a Subject-Object-Verb language)**.
+
+The main focus is to understand:
+
+👉 *Why do speakers sometimes place longer phrases before shorter ones?*
+
+---
+
+# 🔍 2. Key Observation
+
+When a sentence contains:
+
+* A **short phrase**
+* A **long phrase (with additional information like a relative clause)**
+
+👉 Speakers often show a tendency toward:
+
+## **Long-before-short ordering**
+
+Example:
+
+* Short: "the boy"
+* Long: "the boy who was crying"
+
+---
+
+# ❓ 3. Research Question
+
+👉 **What explains this preference?**
+
+There are two competing theories:
+
+---
+
+# ⚖️ 4. Competing Theories
+
+## 🟢 4.1 Dependency Locality (Efficiency)
+
+* Speakers try to keep related words **close together**
+* This reduces **working memory load**
+
+👉 Prediction:
+
+* Long phrases will be placed at the **end**
+* Structure: **S O V RC (Right-Extraposition)**
+
+---
+
+## 🔵 4.2 Accessibility
+
+* Longer phrases are **more informative / easier to plan**
+* So they are produced earlier
+
+👉 Prediction:
+
+* Long phrases will be placed at the **beginning**
+* Structure: **O RC S V (Object-Fronting)**
+
+---
+
+# 🧩 5. Core Concept: Dependency Length
+
+* Measures the **distance between related words**
+* Shorter distance = easier for the brain
+* Longer distance = more cognitive effort
+
+👉 The paper tests whether speakers prefer **shorter dependency length**
+
+---
+
+# 🧪 6. Experimental Design
+
+The authors used a **Sentence Recall Task**:
+
+### Steps:
+
+1. Participants are shown sentence parts
+2. They mentally construct the sentence
+3. A distraction task (math problem) is given
+4. Participants speak the sentence
+
+👉 This helps capture **natural word order choices**
+
+---
+
+# 🧾 7. Conditions Used in Experiment
+
+## 1. All-Short
+
+* No long phrase
+* Used as baseline
+
+## 2. Dependency-Neutral
+
+* Changing order does not affect dependency length
+
+## 3. O-Long (Critical Condition)
+
+* Object contains a long relative clause
+* Used to test both theories
+
+---
+
+# 🧱 8. Sentence Structures
+
+* **Canonical:** S O RC V
+* **Object-Fronted:** O RC S V
+* **Right-Extraposed:** S O V RC
+
+---
+
+# 🔮 9. Predictions
+
+| Theory        | Expected Structure |
+| ------------- | ------------------ |
+| Efficiency    | S O V RC           |
+| Accessibility | O RC S V           |
+
+---
+
+# 📊 10. Results
+
+From the experiment:
+
+### ✅ Right-Extraposed (Efficiency)
+
+* Highest in O-Long condition (~67%)
+
+### ❌ Object-Fronted (Accessibility)
+
+* Very low (~1–2%)
+* Not significant
+
+---
+
+# 📈 11. Statistical Findings
+
+* Efficiency effect → **Significant (p < 0.001)**
+* Accessibility effect → **Not significant**
+
+---
+
+# 🧠 12. Interpretation
+
+* Speakers prefer structures that:
+
+  * Reduce memory load
+  * Keep dependencies shorter
+
+👉 Word order is influenced by **processing efficiency**
+
+---
+
+# ⚠️ 13. Important Clarification
+
+Accessibility is **not completely wrong**, but:
+
+* It works for:
+
+  * Animacy
+  * Givenness
+* It does NOT explain phrase length ordering
+
+---
+
+# 🏁 14. Final Conclusion
+
+👉 The study provides strong evidence that:
+
+## **Word order is guided by efficiency (dependency locality), not accessibility**
+
+---
+
+# 🌍 15. Broader Impact
+
+* Supports the idea that:
+
+🧠 **Language is shaped by cognitive constraints (working memory)**
+
+* This principle may apply across languages
+
+---
+
+# 💻 16. My Implementation (Project Work)
+
+In this project, I:
+
+* Simulated sentence structures
+* Computed dependency length using NLP (spaCy)
+* Compared different word orders
+* Visualized results using graphs
+
+👉 The computational results support the same conclusion as the paper.
+
+---
+
+# 🎯 17. Key Takeaway
+
+👉
+**Humans do not just speak based on meaning — they speak in a way that is easier for the brain to process.**
